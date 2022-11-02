@@ -203,7 +203,7 @@ if game.CoreGui:FindFirstChild("woof") then
     MainFrame.Parent = woof
     MainFrame.BackgroundColor3 = getgenv().GUI_Color.Bacground
     MainFrame.Position = UDim2.new(0.590548515, -325, 0.683814943, -250)
-    MainFrame.Size = UDim2.new(0, 700, 0, 470)
+    MainFrame.Size = UDim2.new(0, 650, 0, 410)
     -- 0, 650, 0, 410 ^^
     
     MainCorner.CornerRadius = UDim.new(0, 5)
@@ -215,7 +215,7 @@ if game.CoreGui:FindFirstChild("woof") then
     LeftFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     LeftFrame.BackgroundTransparency = 1.000
     LeftFrame.Position = UDim2.new(0.5, -325, 0.609756112, -250)
-    LeftFrame.Size = UDim2.new(0, 300, 0, 450)
+    LeftFrame.Size = UDim2.new(0, 199, 0, 350)
     -- (0, 199, 0, 350)
     LeftFrameCorner.CornerRadius = UDim.new(0, 5)
     LeftFrameCorner.Name = "LeftFrameCorner"
