@@ -200,93 +200,94 @@ if game.CoreGui:FindFirstChild("woof") then
  
  
     MainFrame.Name = "MainFrame"
-    MainFrame.Parent = woof
-    MainFrame.BackgroundColor3 = getgenv().GUI_Color.Bacground
-    MainFrame.Position = UDim2.new(0.590548515, -325, 0.683814943, -250)
-    MainFrame.Size = UDim2.new(0, 650, 0, 410)
-    -- 0, 650, 0, 410 ^^
-    
-    MainCorner.CornerRadius = UDim.new(0, 5)
-    MainCorner.Name = "MainCorner"
-    MainCorner.Parent = MainFrame
-    
-    LeftFrame.Name = "LeftFrame"
-    LeftFrame.Parent = MainFrame
-    LeftFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-    LeftFrame.BackgroundTransparency = 1.000
-    LeftFrame.Position = UDim2.new(0.5, -325, 0.609756112, -250)
-    LeftFrame.Size = UDim2.new(0, 199, 0, 350)
-    -- (0, 199, 0, 350)
-    LeftFrameCorner.CornerRadius = UDim.new(0, 5)
-    LeftFrameCorner.Name = "LeftFrameCorner"
-    LeftFrameCorner.Parent = LeftFrame
-    
-    TabHolder.Name = "TabHolder"
-    TabHolder.Parent = LeftFrame
-    TabHolder.Active = true
-    TabHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    TabHolder.BackgroundTransparency = 1.000
-    TabHolder.BorderSizePixel = 0
-    TabHolder.Position = UDim2.new(0.0520000011, 0, 0.214000002, 0)
-    TabHolder.Size = UDim2.new(0, 188, 0, 273)
-    TabHolder.ScrollBarThickness = 0
-    
-    TabHoldLayout.Name = "TabHoldLayout"
-    TabHoldLayout.Parent = TabHolder
-    TabHoldLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
-    TabHoldLayout.SortOrder = Enum.SortOrder.LayoutOrder
-    TabHoldLayout.Padding = UDim.new(0, 5)
- 
- 
-    DragFrame.Name = "DragFrame"
-    DragFrame.Parent = MainFrame
-    DragFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    DragFrame.BackgroundTransparency = 1.000
-    DragFrame.Position = UDim2.new(0.30130294, 0, 0.00253164559, 0)
-    DragFrame.Size = UDim2.new(0, 428, 0, 21)
- 
-    MakeDraggable(DragFrame, MainFrame)
-    
-    GameTitle.Name = "GameTitle"
-    GameTitle.Parent = MainFrame
-    GameTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    GameTitle.BackgroundTransparency = 1.000
-    GameTitle.Position = UDim2.new(0.0297903754, 0, 0.0987561122, 6)
-    GameTitle.Size = UDim2.new(0, 159, 0, 20)
-    GameTitle.Font = Enum.Font.Gotham
-    GameTitle.Text = gamename
-    GameTitle.TextColor3 = Color3.fromRGB(186, 13, 7)
-    GameTitle.TextSize = 17.000
-    GameTitle.TextTransparency = 0.400
-    
-    MainTitle.Name = "MainTitle"
-    MainTitle.Parent = MainFrame
-    MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    MainTitle.BackgroundTransparency = 1.000
-    MainTitle.Position = UDim2.new(0.0322690085, 0, 0.035682939, 0)
-    MainTitle.Size = UDim2.new(0, 159, 0, 20)
-    MainTitle.Font = Enum.Font.Gotham
-    MainTitle.Text = hubname186, (186, 13, 7)
-    MainTitle.TextSize = 25.000
-    
-    MainFrameholder.Name = "MainFrameholder"
-    MainFrameholder.Parent = MainFrame
-    MainFrameholder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    MainFrameholder.BackgroundTransparency = 1.000
-    MainFrameholder.Position = UDim2.new(0.0153846154, 0, 0.160975605, 0)
-    MainFrameholder.Size = UDim2.new(0, 178, 0, 283)
-    MainFrameholder.Visible = true
- 
-    SettingsButton.Name = "SettingsButton"
-    SettingsButton.Parent = MainFrameholder
-    SettingsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    SettingsButton.BackgroundTransparency = 1.000
-    SettingsButton.Position = UDim2.new(3.12026191, 0, -0.215547696, 0)
-    SettingsButton.Size = UDim2.new(0, 43, 0, 29)
-    SettingsButton.Font = Enum.Font.SourceSans
-    SettingsButton.Text = ""
-    SettingsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-    SettingsButton.TextSize = 14.000
+   MainFrame.Parent = woof
+   MainFrame.BackgroundColor3 = getgenv().GUI_Color.Bacground
+   MainFrame.Position = UDim2.new(0.590548515, -325, 0.683814943, -250)
+   MainFrame.Size = UDim2.new(0, 650, 0, 410)
+   -- 0, 650, 0, 410 ^^
+   
+   MainCorner.CornerRadius = UDim.new(0, 5)
+   MainCorner.Name = "MainCorner"
+   MainCorner.Parent = MainFrame
+   
+   LeftFrame.Name = "LeftFrame"
+   LeftFrame.Parent = MainFrame
+   LeftFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+   LeftFrame.BackgroundTransparency = 1.000
+   LeftFrame.Position = UDim2.new(0.5, -325, 0.609756112, -250)
+   LeftFrame.Size = UDim2.new(0, 199, 0, 350)
+   
+   LeftFrameCorner.CornerRadius = UDim.new(0, 5)
+   LeftFrameCorner.Name = "LeftFrameCorner"
+   LeftFrameCorner.Parent = LeftFrame
+   
+   TabHolder.Name = "TabHolder"
+   TabHolder.Parent = LeftFrame
+   TabHolder.Active = true
+   TabHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   TabHolder.BackgroundTransparency = 1.000
+   TabHolder.BorderSizePixel = 0
+   TabHolder.Position = UDim2.new(0.0520000011, 0, 0.214000002, 0)
+   TabHolder.Size = UDim2.new(0, 188, 0, 273)
+   TabHolder.ScrollBarThickness = 0
+   
+   TabHoldLayout.Name = "TabHoldLayout"
+   TabHoldLayout.Parent = TabHolder
+   TabHoldLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+   TabHoldLayout.SortOrder = Enum.SortOrder.LayoutOrder
+   TabHoldLayout.Padding = UDim.new(0, 5)
+
+
+   DragFrame.Name = "DragFrame"
+   DragFrame.Parent = MainFrame
+   DragFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   DragFrame.BackgroundTransparency = 1.000
+   DragFrame.Position = UDim2.new(0.30130294, 0, 0.00253164559, 0)
+   DragFrame.Size = UDim2.new(0, 428, 0, 21)
+
+   MakeDraggable(DragFrame, MainFrame)
+   
+   GameTitle.Name = "GameTitle"
+   GameTitle.Parent = MainFrame
+   GameTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   GameTitle.BackgroundTransparency = 1.000
+   GameTitle.Position = UDim2.new(0.0297903754, 0, 0.0987561122, 6)
+   GameTitle.Size = UDim2.new(0, 159, 0, 20)
+   GameTitle.Font = Enum.Font.Gotham
+   GameTitle.Text = gamename
+   GameTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+   GameTitle.TextSize = 17.000
+   GameTitle.TextTransparency = 0.400
+   
+   MainTitle.Name = "MainTitle"
+   MainTitle.Parent = MainFrame
+   MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   MainTitle.BackgroundTransparency = 1.000
+   MainTitle.Position = UDim2.new(0.0322690085, 0, 0.035682939, 0)
+   MainTitle.Size = UDim2.new(0, 159, 0, 20)
+   MainTitle.Font = Enum.Font.Gotham
+   MainTitle.Text = hubname
+   MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+   MainTitle.TextSize = 25.000
+   
+   MainFrameholder.Name = "MainFrameholder"
+   MainFrameholder.Parent = MainFrame
+   MainFrameholder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   MainFrameholder.BackgroundTransparency = 1.000
+   MainFrameholder.Position = UDim2.new(0.0153846154, 0, 0.160975605, 0)
+   MainFrameholder.Size = UDim2.new(0, 178, 0, 283)
+   MainFrameholder.Visible = true
+
+   SettingsButton.Name = "SettingsButton"
+   SettingsButton.Parent = MainFrameholder
+   SettingsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+   SettingsButton.BackgroundTransparency = 1.000
+   SettingsButton.Position = UDim2.new(3.12026191, 0, -0.215547696, 0)
+   SettingsButton.Size = UDim2.new(0, 43, 0, 29)
+   SettingsButton.Font = Enum.Font.SourceSans
+   SettingsButton.Text = ""
+   SettingsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+   SettingsButton.TextSize = 14.000
  
     
     ImageLabel.Parent = SettingsButton
