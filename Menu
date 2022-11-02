@@ -266,8 +266,7 @@ if game.CoreGui:FindFirstChild("woof") then
     MainTitle.Position = UDim2.new(0.0322690085, 0, 0.035682939, 0)
     MainTitle.Size = UDim2.new(0, 159, 0, 20)
     MainTitle.Font = Enum.Font.Gotham
-    MainTitle.Text = hubname
-    MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+    MainTitle.Text = hubname186, (186, 13, 7)
     MainTitle.TextSize = 25.000
     
     MainFrameholder.Name = "MainFrameholder"
