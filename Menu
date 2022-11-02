@@ -2686,7 +2686,7 @@ function ContainerItems:Button(text, callback)
    Button.Name = text
    Button.Parent = Container
    Button.BackgroundColor3 = getgenv().GUI_Color.DarkContrast
-   Button.Size = UDim2.new(0, 300, 0, 40) -- (0, 405, 0, 40)
+   Button.Size = UDim2.new(0, 405, 0, 40)
    Button.AutoButtonColor = false
    Button.Font = Enum.Font.Gotham
    Button.Text = text
