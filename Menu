@@ -279,7 +279,7 @@ if game.CoreGui:FindFirstChild("woof") then
  
     SettingsButton.Name = "SettingsButton"
     SettingsButton.Parent = MainFrameholder
-    SettingsButton.BackgroundColor3 = Color3.fromRGB(3, 99, 9)
+    SettingsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     SettingsButton.BackgroundTransparency = 1.000
     SettingsButton.Position = UDim2.new(3.12026191, 0, -0.215547696, 0)
     SettingsButton.Size = UDim2.new(0, 43, 0, 29)
