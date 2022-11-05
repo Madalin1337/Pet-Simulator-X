@@ -85,7 +85,7 @@
   end)
   
 
-    local Win = UIlib:Window("Pet Simulator X", "Version 1.32")
+    local Win = UIlib:Window("Pet Simulator X", "Version 1.33")
     local Autofarm = Win:Tab("AutoFarm")
     local OldFarm = Win:Tab("Only Farm")
     local Misc = Win:Tab("Misc")
